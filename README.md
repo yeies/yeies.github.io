@@ -1,2 +1,2 @@
-# yeies.githug.io
+# yeies.github.io
  
