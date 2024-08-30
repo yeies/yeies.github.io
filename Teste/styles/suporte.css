@@ -1,0 +1,134 @@
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4a0e4e;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: #6a1b9a;
+}
+
+.contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contato li {
+    margin-bottom: 10px;
+}
+
+.suporte-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(74, 14, 78, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4a0e4e;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #4a0e4e;
+}
+
+.tab-button:hover {
+    background-color: #e8f5e9;
+}
+
+.tab-button.active {
+    background-color: #4a0e4e;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px 0;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#sugestao-form .form-group {
+    margin-bottom: 1rem;
+}
+
+#sugestao-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#sugestao-form input,
+#sugestao-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d3a5d6;
+    border-radius: 5px;
+}
+
+#sugestao-form button {
+    background-color: #9a2ca0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#sugestao-form button:hover {
+    background-color: #7b2482;
+}
+
+.mensagem {
+    background-color: #e8f5e9;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contato li {
+    margin-bottom: 10px;
+}
+
+#contato i {
+    margin-right: 10px;
+    color: #4a0e4e;
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+    }
+
+    .tab-button {
+        width: 100%;
+        text-align: left;
+    }
+}
